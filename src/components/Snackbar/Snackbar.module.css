@@ -1,0 +1,24 @@
+.Snackbar {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+
+    border-radius: 4px;
+
+    transition: opacity 0.8s ease-in-out, transform 0.3s ease-out;
+}
+.type-info {
+    background-color: #0898ff80;
+}
+.type-success {
+    background-color: #3dff7480;
+}
+.type-warning {
+    background-color: #ffe65c80;
+}
+.type-error {
+    background-color: #ff6c6c80;
+}

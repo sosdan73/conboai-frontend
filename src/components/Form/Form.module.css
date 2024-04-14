@@ -1,0 +1,38 @@
+.Form {
+    display: flex;
+    justify-content: center;
+}
+.input, .button {
+    padding: 10px 20px;
+    border: 1px solid #444;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+.input {
+    font-weight: 200;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+
+    transition: border-color 0.3s ease-out;
+}
+.button {
+    background-color: #0898ff;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.input:focus, .input:focus + .button {
+    border-color: #aaa;
+}
+.input:disabled {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+.button:active {
+    opacity: 70%;
+}
+.button:disabled {
+    background-color: #0c4b77;
+    cursor: not-allowed;
+}

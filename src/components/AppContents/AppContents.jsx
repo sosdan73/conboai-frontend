@@ -51,8 +51,8 @@ const AppContents = props => {
 
 	return (
 		<div className={classes.App}>
-			<h1 className={classes.title}>Short your link!</h1>
-			<p className={classes.description}>Paste your link below and use the shortened version of it</p>
+			<h1>Short your link!</h1>
+			<p>Paste your link below and use the shortened version of it</p>
 			<Form
 				value={link}
 				linkSubmittable={state.linkSubmittable}
